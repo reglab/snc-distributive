@@ -1,0 +1,749 @@
+Start outputing arima forecasts with DMR records from reglabepa_snc_distributive_implications_20201019 using 49 CPUs. ARIMA output will be saved as snc_dist_20193-20201.csv, which will be later uploaded to RegLab EPA database as model_inputs.arima_forecasts_snc_dist_v3
+======== Generating output for all states. ==========
+==> Start readings DMR
+==> Finish reading DMR: took 3.09045394659042 mins.
+----------Start ARIMA analysis for 61 states: AK, AL, AR, AS, AZ, CA, CO, CT, DC, DE, FL, GA, GE, GM, GU, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MP, MS, MT, MW, NC, ND, NE, NH, NJ, NM, NN, NV, NY, OH, OK, OR, PA, PR, RI, SC, SD, SR, TN, TX, UT, VA, VI, VT, WA, WI, WV, WY---------
+Prediction period: 2019-04-30 to 2019-06-30; Training period: 1000-01-01 to 2019-03-31
+==> Removing dmr values with known error codes in the exceedance percentages column 
+=========AK========
+==> Running ARIMA for 8870 series with 49 CPUs:
+==> Output generated: ARIMA took 3.10869750181834 mins.
+==> Saving arima output took 0.0133778611818949 mins.
+=========AL========
+==> Running ARIMA for 78403 series with 49 CPUs:
+==> Output generated: ARIMA took 18.9613988717397 mins.
+==> Saving arima output took 0.0840433041254679 mins.
+=========AR========
+==> Running ARIMA for 71478 series with 49 CPUs:
+==> Output generated: ARIMA took 14.4968134641647 mins.
+==> Saving arima output took 0.0807996511459351 mins.
+=========AS========
+==> Running ARIMA for 338 series with 49 CPUs:
+==> Output generated: ARIMA took 0.395023727416992 mins.
+==> Saving arima output took 0.00038219690322876 mins.
+=========AZ========
+==> Running ARIMA for 8828 series with 49 CPUs:
+==> Output generated: ARIMA took 1.43245749473572 mins.
+==> Saving arima output took 0.00844399929046631 mins.
+=========CA========
+==> Running ARIMA for 39264 series with 49 CPUs:
+==> Output generated: ARIMA took 6.75722672144572 mins.
+==> Saving arima output took 0.0422526558240255 mins.
+=========CO========
+==> Running ARIMA for 68933 series with 49 CPUs:
+==> Output generated: ARIMA took 10.7137335737546 mins.
+==> Saving arima output took 0.0722181439399719 mins.
+=========CT========
+==> Running ARIMA for 23158 series with 49 CPUs:
+==> Output generated: ARIMA took 4.63081156015396 mins.
+==> Saving arima output took 0.0253150860468547 mins.
+=========DC========
+==> Running ARIMA for 812 series with 49 CPUs:
+==> Output generated: ARIMA took 0.345872000853221 mins.
+==> Saving arima output took 0.000861481825510661 mins.
+=========DE========
+==> Running ARIMA for 3553 series with 49 CPUs:
+==> Output generated: ARIMA took 0.768914945920308 mins.
+==> Saving arima output took 0.00335834423700968 mins.
+=========FL========
+==> Running ARIMA for 27281 series with 49 CPUs:
+==> Output generated: ARIMA took 4.77709423303604 mins.
+==> Saving arima output took 0.0300089120864868 mins.
+=========GA========
+==> Running ARIMA for 56288 series with 49 CPUs:
+==> Output generated: ARIMA took 13.5516390562057 mins.
+==> Saving arima output took 0.0592661579449971 mins.
+=========GE========
+==> Running ARIMA for 391 series with 49 CPUs:
+==> Output generated: ARIMA took 0.339290694395701 mins.
+==> Saving arima output took 0.000559393564860026 mins.
+=========GM========
+==> Running ARIMA for 14916 series with 49 CPUs:
+==> Output generated: ARIMA took 2.47611093123754 mins.
+==> Saving arima output took 0.0173989097277323 mins.
+=========GU========
+==> Running ARIMA for 649 series with 49 CPUs:
+==> Output generated: ARIMA took 0.357579723993937 mins.
+==> Saving arima output took 0.000701022148132324 mins.
+=========HI========
+==> Running ARIMA for 3469 series with 49 CPUs:
+==> Output generated: ARIMA took 0.908198845386505 mins.
+==> Saving arima output took 0.00330576499303182 mins.
+=========IA========
+==> Running ARIMA for 64528 series with 49 CPUs:
+==> Output generated: ARIMA took 10.3385634263357 mins.
+==> Saving arima output took 0.0791643222173055 mins.
+=========ID========
+==> Running ARIMA for 9631 series with 49 CPUs:
+==> Output generated: ARIMA took 1.74531760613124 mins.
+==> Saving arima output took 0.00915388663609823 mins.
+=========IL========
+==> Running ARIMA for 157168 series with 49 CPUs:
+==> Output generated: ARIMA took 40.7536389867465 mins.
+==> Saving arima output took 0.158080947399139 mins.
+=========IN========
+==> Running ARIMA for 148904 series with 49 CPUs:
+==> Output generated: ARIMA took 35.7122135281563 mins.
+==> Saving arima output took 0.16699823141098 mins.
+=========KS========
+==> Running ARIMA for 22513 series with 49 CPUs:
+==> Output generated: ARIMA took 2.73498599529266 mins.
+==> Saving arima output took 0.0242642839749654 mins.
+=========KY========
+==> Running ARIMA for 118923 series with 49 CPUs:
+==> Output generated: ARIMA took 22.0363747119904 mins.
+==> Saving arima output took 0.14666409889857 mins.
+=========LA========
+==> Running ARIMA for 108076 series with 49 CPUs:
+==> Output generated: ARIMA took 11.9854570190112 mins.
+==> Saving arima output took 0.127665825684865 mins.
+=========MA========
+==> Running ARIMA for 18016 series with 49 CPUs:
+==> Output generated: ARIMA took 2.4942768573761 mins.
+==> Saving arima output took 0.0248604695002238 mins.
+=========MD========
+==> Running ARIMA for 37816 series with 49 CPUs:
+==> Output generated: ARIMA took 5.14883064031601 mins.
+==> Saving arima output took 0.0398829102516174 mins.
+=========ME========
+==> Running ARIMA for 18192 series with 49 CPUs:
+==> Output generated: ARIMA took 2.62896483739217 mins.
+==> Saving arima output took 0.0172435641288757 mins.
+=========MI========
+==> Running ARIMA for 43752 series with 49 CPUs:
+==> Output generated: ARIMA took 5.56889412403107 mins.
+==> Saving arima output took 0.0433191816012065 mins.
+=========MN========
+==> Running ARIMA for 12988 series with 49 CPUs:
+==> Output generated: ARIMA took 2.06277703841527 mins.
+==> Saving arima output took 0.0129438479741414 mins.
+=========MO========
+==> Running ARIMA for 116509 series with 49 CPUs:
+==> Output generated: ARIMA took 16.6452329436938 mins.
+==> Saving arima output took 0.121398854255676 mins.
+=========MP========
+==> Running ARIMA for 244 series with 49 CPUs:
+==> Output generated: ARIMA took 0.351253990332286 mins.
+==> Saving arima output took 0.000302040576934814 mins.
+=========MS========
+==> Running ARIMA for 64993 series with 49 CPUs:
+==> Output generated: ARIMA took 10.4765894969304 mins.
+==> Saving arima output took 0.0639535148938497 mins.
+=========MT========
+==> Running ARIMA for 10039 series with 49 CPUs:
+==> Output generated: ARIMA took 1.59522133668264 mins.
+==> Saving arima output took 0.00995086431503296 mins.
+=========MW========
+==> Running ARIMA for 15 series with 49 CPUs:
+==> Output generated: ARIMA took 0.126082615057627 mins.
+==> Saving arima output took 9.31262969970703e-05 mins.
+=========NC========
+==> Running ARIMA for 36380 series with 49 CPUs:
+==> Output generated: ARIMA took 5.99394788742065 mins.
+==> Saving arima output took 0.0427321116129557 mins.
+=========ND========
+==> Running ARIMA for 5567 series with 49 CPUs:
+==> Output generated: ARIMA took 0.770803622404734 mins.
+==> Saving arima output took 0.00565267403920492 mins.
+=========NE========
+==> Running ARIMA for 32677 series with 49 CPUs:
+==> Output generated: ARIMA took 4.46536641120911 mins.
+==> Saving arima output took 0.036702839533488 mins.
+=========NH========
+==> Running ARIMA for 6269 series with 49 CPUs:
+==> Output generated: ARIMA took 1.31930047671 mins.
+==> Saving arima output took 0.00624915758768717 mins.
+=========NJ========
+==> Running ARIMA for 23012 series with 49 CPUs:
+==> Output generated: ARIMA took 3.29129786491394 mins.
+==> Saving arima output took 0.0297990798950195 mins.
+=========NM========
+==> Running ARIMA for 9575 series with 49 CPUs:
+==> Output generated: ARIMA took 1.41066230932871 mins.
+==> Saving arima output took 0.00964520772298177 mins.
+=========NN========
+==> Running ARIMA for 876 series with 49 CPUs:
+==> Output generated: ARIMA took 0.467412507534027 mins.
+==> Saving arima output took 0.000941824913024902 mins.
+=========NV========
+==> Running ARIMA for 1757 series with 49 CPUs:
+==> Output generated: ARIMA took 0.554610979557037 mins.
+==> Saving arima output took 0.00179911057154338 mins.
+=========NY========
+==> Running ARIMA for 158475 series with 49 CPUs:
+==> Output generated: ARIMA took 36.6899310191472 mins.
+==> Saving arima output took 0.328574558099111 mins.
+=========OH========
+==> Running ARIMA for 225338 series with 49 CPUs:
+==> Output generated: ARIMA took 55.8866100788116 mins.
+==> Saving arima output took 0.249124046166738 mins.
+=========OK========
+==> Running ARIMA for 34527 series with 49 CPUs:
+==> Output generated: ARIMA took 7.08990995883942 mins.
+==> Saving arima output took 0.0329095800717672 mins.
+=========OR========
+==> Running ARIMA for 7533 series with 49 CPUs:
+==> Output generated: ARIMA took 1.04807028770447 mins.
+==> Saving arima output took 0.00712820291519165 mins.
+=========PA========
+==> Running ARIMA for 93040 series with 49 CPUs:
+==> Output generated: ARIMA took 13.6376271605492 mins.
+==> Saving arima output took 0.0962577740351359 mins.
+=========PR========
+==> Running ARIMA for 18148 series with 49 CPUs:
+==> Output generated: ARIMA took 3.1014439702034 mins.
+==> Saving arima output took 0.0172247409820557 mins.
+=========RI========
+==> Running ARIMA for 6920 series with 49 CPUs:
+==> Output generated: ARIMA took 1.46264898379644 mins.
+==> Saving arima output took 0.0114494880040487 mins.
+=========SC========
+==> Running ARIMA for 33667 series with 49 CPUs:
+==> Output generated: ARIMA took 4.7567551612854 mins.
+==> Saving arima output took 0.0365985592206319 mins.
+=========SD========
+==> Running ARIMA for 9589 series with 49 CPUs:
+==> Output generated: ARIMA took 1.21956026951472 mins.
+==> Saving arima output took 0.018212095896403 mins.
+=========SR========
+==> Running ARIMA for 111 series with 49 CPUs:
+==> Output generated: ARIMA took 0.451699161529541 mins.
+==> Saving arima output took 0.000190476576487223 mins.
+=========TN========
+==> Running ARIMA for 48821 series with 49 CPUs:
+==> Output generated: ARIMA took 7.19128291209539 mins.
+==> Saving arima output took 0.05248703956604 mins.
+=========TX========
+==> Running ARIMA for 227800 series with 49 CPUs:
+==> Output generated: ARIMA took 57.4328620195389 mins.
+==> Saving arima output took 0.244515641530355 mins.
+=========UT========
+==> Running ARIMA for 8780 series with 49 CPUs:
+==> Output generated: ARIMA took 1.67046091953913 mins.
+==> Saving arima output took 0.00909726222356161 mins.
+=========VA========
+==> Running ARIMA for 29639 series with 49 CPUs:
+==> Output generated: ARIMA took 5.14238298734029 mins.
+==> Saving arima output took 0.0338153084119161 mins.
+=========VI========
+==> Running ARIMA for 2504 series with 49 CPUs:
+==> Output generated: ARIMA took 0.961113866170247 mins.
+==> Saving arima output took 0.00272694826126099 mins.
+=========VT========
+==> Running ARIMA for 3956 series with 49 CPUs:
+==> Output generated: ARIMA took 1.06102747122447 mins.
+==> Saving arima output took 0.00392462015151978 mins.
+=========WA========
+==> Running ARIMA for 23647 series with 49 CPUs:
+==> Output generated: ARIMA took 5.02587479750315 mins.
+==> Saving arima output took 0.0224735140800476 mins.
+=========WI========
+==> Running ARIMA for 15086 series with 49 CPUs:
+==> Output generated: ARIMA took 3.85108741124471 mins.
+==> Saving arima output took 0.0196587085723877 mins.
+=========WV========
+==> Running ARIMA for 105231 series with 49 CPUs:
+==> Output generated: ARIMA took 15.6114048798879 mins.
+==> Saving arima output took 0.114531326293945 mins.
+=========WY========
+==> Running ARIMA for 28674 series with 49 CPUs:
+==> Output generated: ARIMA took 3.07318350871404 mins.
+==> Saving arima output took 0.0276692867279053 mins.
+--------------Finished ARIMA analysis----------------
+----------Start ARIMA analysis for 61 states: AK, AL, AR, AS, AZ, CA, CO, CT, DC, DE, FL, GA, GE, GM, GU, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MP, MS, MT, MW, NC, ND, NE, NH, NJ, NM, NN, NV, NY, OH, OK, OR, PA, PR, RI, SC, SD, SR, TN, TX, UT, VA, VI, VT, WA, WI, WV, WY---------
+Prediction period: 2019-07-31 to 2019-09-30; Training period: 1000-01-01 to 2019-06-30
+==> Removing dmr values with known error codes in the exceedance percentages column 
+=========AK========
+==> Running ARIMA for 8870 series with 49 CPUs:
+==> Output generated: ARIMA took 1.44001401265462 mins.
+==> Saving arima output took 0.00936739842096965 mins.
+=========AL========
+==> Running ARIMA for 78403 series with 49 CPUs:
+==> Output generated: ARIMA took 12.6920130888621 mins.
+==> Saving arima output took 0.0827392299969991 mins.
+=========AR========
+==> Running ARIMA for 71478 series with 49 CPUs:
+==> Output generated: ARIMA took 11.3941345135371 mins.
+==> Saving arima output took 0.0819092353185018 mins.
+=========AS========
+==> Running ARIMA for 338 series with 49 CPUs:
+==> Output generated: ARIMA took 0.520238387584686 mins.
+==> Saving arima output took 0.00141162872314453 mins.
+=========AZ========
+==> Running ARIMA for 8828 series with 49 CPUs:
+==> Output generated: ARIMA took 1.36047002474467 mins.
+==> Saving arima output took 0.011731743812561 mins.
+=========CA========
+==> Running ARIMA for 39264 series with 49 CPUs:
+==> Output generated: ARIMA took 5.58275289535522 mins.
+==> Saving arima output took 0.037833837668101 mins.
+=========CO========
+==> Running ARIMA for 68933 series with 49 CPUs:
+==> Output generated: ARIMA took 11.3112060308456 mins.
+==> Saving arima output took 0.0708146731058757 mins.
+=========CT========
+==> Running ARIMA for 23158 series with 49 CPUs:
+==> Output generated: ARIMA took 3.69957651297251 mins.
+==> Saving arima output took 0.0219169576962789 mins.
+=========DC========
+==> Running ARIMA for 812 series with 49 CPUs:
+==> Output generated: ARIMA took 0.565842338403066 mins.
+==> Saving arima output took 0.0011908213297526 mins.
+=========DE========
+==> Running ARIMA for 3553 series with 49 CPUs:
+==> Output generated: ARIMA took 0.975384636720022 mins.
+==> Saving arima output took 0.00389379660288493 mins.
+=========FL========
+==> Running ARIMA for 27281 series with 49 CPUs:
+==> Output generated: ARIMA took 3.84285692771276 mins.
+==> Saving arima output took 0.0331995050112406 mins.
+=========GA========
+==> Running ARIMA for 56288 series with 49 CPUs:
+==> Output generated: ARIMA took 10.0221953948339 mins.
+==> Saving arima output took 0.0590750296910604 mins.
+=========GE========
+==> Running ARIMA for 391 series with 49 CPUs:
+==> Output generated: ARIMA took 0.550654991467794 mins.
+==> Saving arima output took 0.00087207555770874 mins.
+=========GM========
+==> Running ARIMA for 14916 series with 49 CPUs:
+==> Output generated: ARIMA took 1.77602456410726 mins.
+==> Saving arima output took 0.0232384244600932 mins.
+=========GU========
+==> Running ARIMA for 649 series with 49 CPUs:
+==> Output generated: ARIMA took 0.570874738693237 mins.
+==> Saving arima output took 0.000921416282653809 mins.
+=========HI========
+==> Running ARIMA for 3469 series with 49 CPUs:
+==> Output generated: ARIMA took 0.815111263593038 mins.
+==> Saving arima output took 0.00405266284942627 mins.
+=========IA========
+==> Running ARIMA for 64528 series with 49 CPUs:
+==> Output generated: ARIMA took 9.3211267153422 mins.
+==> Saving arima output took 0.0666142662366231 mins.
+=========ID========
+==> Running ARIMA for 9631 series with 49 CPUs:
+==> Output generated: ARIMA took 2.01624409755071 mins.
+==> Saving arima output took 0.00965617497762044 mins.
+=========IL========
+==> Running ARIMA for 157168 series with 49 CPUs:
+==> Output generated: ARIMA took 35.7806228677432 mins.
+==> Saving arima output took 0.156302547454834 mins.
+=========IN========
+==> Running ARIMA for 148904 series with 49 CPUs:
+==> Output generated: ARIMA took 30.3721894184748 mins.
+==> Saving arima output took 0.157606291770935 mins.
+=========KS========
+==> Running ARIMA for 22513 series with 49 CPUs:
+==> Output generated: ARIMA took 2.39740277926127 mins.
+==> Saving arima output took 0.0216149965922038 mins.
+=========KY========
+==> Running ARIMA for 118923 series with 49 CPUs:
+==> Output generated: ARIMA took 24.2292720357577 mins.
+==> Saving arima output took 0.12113090356191 mins.
+=========LA========
+==> Running ARIMA for 108076 series with 49 CPUs:
+==> Output generated: ARIMA took 15.1179363489151 mins.
+==> Saving arima output took 0.110633277893066 mins.
+=========MA========
+==> Running ARIMA for 18016 series with 49 CPUs:
+==> Output generated: ARIMA took 2.72250280380249 mins.
+==> Saving arima output took 0.0192134181658427 mins.
+=========MD========
+==> Running ARIMA for 37816 series with 49 CPUs:
+==> Output generated: ARIMA took 6.16294068892797 mins.
+==> Saving arima output took 0.0407979806264242 mins.
+=========ME========
+==> Running ARIMA for 18192 series with 49 CPUs:
+==> Output generated: ARIMA took 3.02346527576447 mins.
+==> Saving arima output took 0.0179147998491923 mins.
+=========MI========
+==> Running ARIMA for 43752 series with 49 CPUs:
+==> Output generated: ARIMA took 6.24803965886434 mins.
+==> Saving arima output took 0.0453165570894877 mins.
+=========MN========
+==> Running ARIMA for 12988 series with 49 CPUs:
+==> Output generated: ARIMA took 1.9493479291598 mins.
+==> Saving arima output took 0.0128478288650513 mins.
+=========MO========
+==> Running ARIMA for 116509 series with 49 CPUs:
+==> Output generated: ARIMA took 14.2227875550588 mins.
+==> Saving arima output took 0.120519089698792 mins.
+=========MP========
+==> Running ARIMA for 244 series with 49 CPUs:
+==> Output generated: ARIMA took 0.456616191069285 mins.
+==> Saving arima output took 0.000643058617909749 mins.
+=========MS========
+==> Running ARIMA for 64993 series with 49 CPUs:
+==> Output generated: ARIMA took 8.43635976711909 mins.
+==> Saving arima output took 0.0680954496065776 mins.
+=========MT========
+==> Running ARIMA for 10039 series with 49 CPUs:
+==> Output generated: ARIMA took 1.92252383232117 mins.
+==> Saving arima output took 0.0102627674738566 mins.
+=========MW========
+==> Running ARIMA for 15 series with 49 CPUs:
+==> Output generated: ARIMA took 0.132678898175557 mins.
+==> Saving arima output took 0.000399549802144368 mins.
+=========NC========
+==> Running ARIMA for 36380 series with 49 CPUs:
+==> Output generated: ARIMA took 6.11400717894236 mins.
+==> Saving arima output took 0.0363048076629639 mins.
+=========ND========
+==> Running ARIMA for 5567 series with 49 CPUs:
+==> Output generated: ARIMA took 0.954747951030731 mins.
+==> Saving arima output took 0.00569404760996501 mins.
+=========NE========
+==> Running ARIMA for 32677 series with 49 CPUs:
+==> Output generated: ARIMA took 5.60626136461894 mins.
+==> Saving arima output took 0.0345723072687785 mins.
+=========NH========
+==> Running ARIMA for 6269 series with 49 CPUs:
+==> Output generated: ARIMA took 1.37503550052643 mins.
+==> Saving arima output took 0.00650444428126017 mins.
+=========NJ========
+==> Running ARIMA for 23012 series with 49 CPUs:
+==> Output generated: ARIMA took 3.35213507413864 mins.
+==> Saving arima output took 0.0267986178398132 mins.
+=========NM========
+==> Running ARIMA for 9575 series with 49 CPUs:
+==> Output generated: ARIMA took 1.67983523607254 mins.
+==> Saving arima output took 0.0176580627759298 mins.
+=========NN========
+==> Running ARIMA for 876 series with 49 CPUs:
+==> Output generated: ARIMA took 0.603113849957784 mins.
+==> Saving arima output took 0.000939257939656576 mins.
+=========NV========
+==> Running ARIMA for 1757 series with 49 CPUs:
+==> Output generated: ARIMA took 0.704814716180166 mins.
+==> Saving arima output took 0.00214837789535522 mins.
+=========NY========
+==> Running ARIMA for 158475 series with 49 CPUs:
+==> Output generated: ARIMA took 39.3037429134051 mins.
+==> Saving arima output took 0.167661154270172 mins.
+=========OH========
+==> Running ARIMA for 225338 series with 49 CPUs:
+==> Output generated: ARIMA took 48.4760470231374 mins.
+==> Saving arima output took 0.245064222812653 mins.
+=========OK========
+==> Running ARIMA for 34527 series with 49 CPUs:
+==> Output generated: ARIMA took 5.5101459980011 mins.
+==> Saving arima output took 0.0341195265452067 mins.
+=========OR========
+==> Running ARIMA for 7533 series with 49 CPUs:
+==> Output generated: ARIMA took 1.23789111773173 mins.
+==> Saving arima output took 0.0076109766960144 mins.
+=========PA========
+==> Running ARIMA for 93040 series with 49 CPUs:
+==> Output generated: ARIMA took 20.9526376565297 mins.
+==> Saving arima output took 0.0959407726923625 mins.
+=========PR========
+==> Running ARIMA for 18148 series with 49 CPUs:
+==> Output generated: ARIMA took 2.93610321680705 mins.
+==> Saving arima output took 0.0292652289072673 mins.
+=========RI========
+==> Running ARIMA for 6920 series with 49 CPUs:
+==> Output generated: ARIMA took 1.38058414061864 mins.
+==> Saving arima output took 0.00805056889851888 mins.
+=========SC========
+==> Running ARIMA for 33667 series with 49 CPUs:
+==> Output generated: ARIMA took 4.66458503802617 mins.
+==> Saving arima output took 0.0323657075564067 mins.
+=========SD========
+==> Running ARIMA for 9589 series with 49 CPUs:
+==> Output generated: ARIMA took 1.6355407277743 mins.
+==> Saving arima output took 0.0104703783988953 mins.
+=========SR========
+==> Running ARIMA for 111 series with 49 CPUs:
+==> Output generated: ARIMA took 0.574411308765411 mins.
+==> Saving arima output took 0.0010693351427714 mins.
+=========TN========
+==> Running ARIMA for 48821 series with 49 CPUs:
+==> Output generated: ARIMA took 8.19545160531998 mins.
+==> Saving arima output took 0.0474604845046997 mins.
+=========TX========
+==> Running ARIMA for 227800 series with 49 CPUs:
+==> Output generated: ARIMA took 60.530809644858 mins.
+==> Saving arima output took 0.209796957174937 mins.
+=========UT========
+==> Running ARIMA for 8780 series with 49 CPUs:
+==> Output generated: ARIMA took 1.98861015240351 mins.
+==> Saving arima output took 0.00910942554473877 mins.
+=========VA========
+==> Running ARIMA for 29639 series with 49 CPUs:
+==> Output generated: ARIMA took 6.12598869403203 mins.
+==> Saving arima output took 0.0288211862246195 mins.
+=========VI========
+==> Running ARIMA for 2504 series with 49 CPUs:
+==> Output generated: ARIMA took 0.790990845362345 mins.
+==> Saving arima output took 0.00321072737375895 mins.
+=========VT========
+==> Running ARIMA for 3956 series with 49 CPUs:
+==> Output generated: ARIMA took 1.01942089398702 mins.
+==> Saving arima output took 0.00410758256912231 mins.
+=========WA========
+==> Running ARIMA for 23647 series with 49 CPUs:
+==> Output generated: ARIMA took 4.23331627845764 mins.
+==> Saving arima output took 0.0626050472259521 mins.
+=========WI========
+==> Running ARIMA for 15086 series with 49 CPUs:
+==> Output generated: ARIMA took 2.22618683576584 mins.
+==> Saving arima output took 0.0160469174385071 mins.
+=========WV========
+==> Running ARIMA for 105231 series with 49 CPUs:
+==> Output generated: ARIMA took 13.3773745218913 mins.
+==> Saving arima output took 0.123590624332428 mins.
+=========WY========
+==> Running ARIMA for 28674 series with 49 CPUs:
+==> Output generated: ARIMA took 3.63925247589747 mins.
+==> Saving arima output took 0.0280654311180115 mins.
+--------------Finished ARIMA analysis----------------
+----------Start ARIMA analysis for 61 states: AK, AL, AR, AS, AZ, CA, CO, CT, DC, DE, FL, GA, GE, GM, GU, HI, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MP, MS, MT, MW, NC, ND, NE, NH, NJ, NM, NN, NV, NY, OH, OK, OR, PA, PR, RI, SC, SD, SR, TN, TX, UT, VA, VI, VT, WA, WI, WV, WY---------
+Prediction period: 2019-10-31 to 2019-12-31; Training period: 1000-01-01 to 2019-09-30
+==> Removing dmr values with known error codes in the exceedance percentages column 
+=========AK========
+==> Running ARIMA for 8870 series with 49 CPUs:
+==> Output generated: ARIMA took 1.39378685156504 mins.
+==> Saving arima output took 0.00970516999562581 mins.
+=========AL========
+==> Running ARIMA for 78403 series with 49 CPUs:
+==> Output generated: ARIMA took 10.0794842084249 mins.
+==> Saving arima output took 0.0852893114089966 mins.
+=========AR========
+==> Running ARIMA for 71478 series with 49 CPUs:
+==> Output generated: ARIMA took 14.1736585021019 mins.
+==> Saving arima output took 0.0717323223749797 mins.
+=========AS========
+==> Running ARIMA for 338 series with 49 CPUs:
+==> Output generated: ARIMA took 0.399046981334686 mins.
+==> Saving arima output took 0.00737830797831217 mins.
+=========AZ========
+==> Running ARIMA for 8828 series with 49 CPUs:
+==> Output generated: ARIMA took 1.75182615915934 mins.
+==> Saving arima output took 0.00838295618693034 mins.
+=========CA========
+==> Running ARIMA for 39264 series with 49 CPUs:
+==> Output generated: ARIMA took 8.30042487780253 mins.
+==> Saving arima output took 0.0413131237030029 mins.
+=========CO========
+==> Running ARIMA for 68933 series with 49 CPUs:
+==> Output generated: ARIMA took 12.8599974234899 mins.
+==> Saving arima output took 0.0768361210823059 mins.
+=========CT========
+==> Running ARIMA for 23158 series with 49 CPUs:
+==> Output generated: ARIMA took 5.65800226529439 mins.
+==> Saving arima output took 0.0252172787984212 mins.
+=========DC========
+==> Running ARIMA for 812 series with 49 CPUs:
+==> Output generated: ARIMA took 0.450776648521423 mins.
+==> Saving arima output took 0.000815379619598389 mins.
+=========DE========
+==> Running ARIMA for 3553 series with 49 CPUs:
+==> Output generated: ARIMA took 0.884430130322774 mins.
+==> Saving arima output took 0.00334315299987793 mins.
+=========FL========
+==> Running ARIMA for 27281 series with 49 CPUs:
+==> Output generated: ARIMA took 5.70310370524724 mins.
+==> Saving arima output took 0.0312082568804423 mins.
+=========GA========
+==> Running ARIMA for 56288 series with 49 CPUs:
+==> Output generated: ARIMA took 9.9362360795339 mins.
+==> Saving arima output took 0.0596074382464091 mins.
+=========GE========
+==> Running ARIMA for 391 series with 49 CPUs:
+==> Output generated: ARIMA took 0.664407328764598 mins.
+==> Saving arima output took 0.000622149308522542 mins.
+=========GM========
+==> Running ARIMA for 14916 series with 49 CPUs:
+==> Output generated: ARIMA took 2.01653885444005 mins.
+==> Saving arima output took 0.0183327635129293 mins.
+=========GU========
+==> Running ARIMA for 649 series with 49 CPUs:
+==> Output generated: ARIMA took 0.543341128031413 mins.
+==> Saving arima output took 0.00072638988494873 mins.
+=========HI========
+==> Running ARIMA for 3469 series with 49 CPUs:
+==> Output generated: ARIMA took 0.847485244274139 mins.
+==> Saving arima output took 0.00354282061258952 mins.
+=========IA========
+==> Running ARIMA for 64528 series with 49 CPUs:
+==> Output generated: ARIMA took 10.8381542444229 mins.
+==> Saving arima output took 0.0699113845825195 mins.
+=========ID========
+==> Running ARIMA for 9631 series with 49 CPUs:
+==> Output generated: ARIMA took 2.09212733904521 mins.
+==> Saving arima output took 0.0132531921068827 mins.
+=========IL========
+==> Running ARIMA for 157168 series with 49 CPUs:
+==> Output generated: ARIMA took 38.2719510436058 mins.
+==> Saving arima output took 0.221644254525503 mins.
+=========IN========
+==> Running ARIMA for 148904 series with 49 CPUs:
+==> Output generated: ARIMA took 37.432265039285 mins.
+==> Saving arima output took 0.220080721378326 mins.
+=========KS========
+==> Running ARIMA for 22513 series with 49 CPUs:
+==> Output generated: ARIMA took 2.34280956188838 mins.
+==> Saving arima output took 0.0255030552546183 mins.
+=========KY========
+==> Running ARIMA for 118923 series with 49 CPUs:
+==> Output generated: ARIMA took 25.6613022446632 mins.
+==> Saving arima output took 0.1281152288119 mins.
+=========LA========
+==> Running ARIMA for 108076 series with 49 CPUs:
+==> Output generated: ARIMA took 17.6985930244128 mins.
+==> Saving arima output took 0.124864478905996 mins.
+=========MA========
+==> Running ARIMA for 18016 series with 49 CPUs:
+==> Output generated: ARIMA took 3.58477782011032 mins.
+==> Saving arima output took 0.0169906973838806 mins.
+=========MD========
+==> Running ARIMA for 37816 series with 49 CPUs:
+==> Output generated: ARIMA took 6.25419568220774 mins.
+==> Saving arima output took 0.0413210829099019 mins.
+=========ME========
+==> Running ARIMA for 18192 series with 49 CPUs:
+==> Output generated: ARIMA took 3.50561120112737 mins.
+==> Saving arima output took 0.0177506685256958 mins.
+=========MI========
+==> Running ARIMA for 43752 series with 49 CPUs:
+==> Output generated: ARIMA took 7.1218797882398 mins.
+==> Saving arima output took 0.0461171309153239 mins.
+=========MN========
+==> Running ARIMA for 12988 series with 49 CPUs:
+==> Output generated: ARIMA took 1.8654615243276 mins.
+==> Saving arima output took 0.0198166012763977 mins.
+=========MO========
+==> Running ARIMA for 116509 series with 49 CPUs:
+==> Output generated: ARIMA took 18.6472271402677 mins.
+==> Saving arima output took 0.235781339804331 mins.
+=========MP========
+==> Running ARIMA for 244 series with 49 CPUs:
+==> Output generated: ARIMA took 0.43096421957016 mins.
+==> Saving arima output took 0.000469998518625895 mins.
+=========MS========
+==> Running ARIMA for 64993 series with 49 CPUs:
+==> Output generated: ARIMA took 8.632650578022 mins.
+==> Saving arima output took 0.0673543294270833 mins.
+=========MT========
+==> Running ARIMA for 10039 series with 49 CPUs:
+==> Output generated: ARIMA took 1.57269117037455 mins.
+==> Saving arima output took 0.00962868134180705 mins.
+=========MW========
+==> Running ARIMA for 15 series with 49 CPUs:
+==> Output generated: ARIMA took 0.108537769317627 mins.
+==> Saving arima output took 0.000104745229085286 mins.
+=========NC========
+==> Running ARIMA for 36380 series with 49 CPUs:
+==> Output generated: ARIMA took 5.96600886185964 mins.
+==> Saving arima output took 0.0394950350125631 mins.
+=========ND========
+==> Running ARIMA for 5567 series with 49 CPUs:
+==> Output generated: ARIMA took 1.14898177782694 mins.
+==> Saving arima output took 0.0125478585561117 mins.
+=========NE========
+==> Running ARIMA for 32677 series with 49 CPUs:
+==> Output generated: ARIMA took 4.93089543581009 mins.
+==> Saving arima output took 0.0339155356089274 mins.
+=========NH========
+==> Running ARIMA for 6269 series with 49 CPUs:
+==> Output generated: ARIMA took 1.14577132860819 mins.
+==> Saving arima output took 0.00605320533116659 mins.
+=========NJ========
+==> Running ARIMA for 23012 series with 49 CPUs:
+==> Output generated: ARIMA took 3.38744788169861 mins.
+==> Saving arima output took 0.0209804217020671 mins.
+=========NM========
+==> Running ARIMA for 9575 series with 49 CPUs:
+==> Output generated: ARIMA took 1.3375962138176 mins.
+==> Saving arima output took 0.0101039012273153 mins.
+=========NN========
+==> Running ARIMA for 876 series with 49 CPUs:
+==> Output generated: ARIMA took 0.550815347830454 mins.
+==> Saving arima output took 0.000989143053690592 mins.
+=========NV========
+==> Running ARIMA for 1757 series with 49 CPUs:
+==> Output generated: ARIMA took 0.589831614494324 mins.
+==> Saving arima output took 0.0019886573155721 mins.
+=========NY========
+==> Running ARIMA for 158475 series with 49 CPUs:
+==> Output generated: ARIMA took 37.1481080849965 mins.
+==> Saving arima output took 0.168396425247192 mins.
+=========OH========
+==> Running ARIMA for 225338 series with 49 CPUs:
+==> Output generated: ARIMA took 50.4862697720528 mins.
+==> Saving arima output took 0.248798116048177 mins.
+=========OK========
+==> Running ARIMA for 34527 series with 49 CPUs:
+==> Output generated: ARIMA took 6.28007799784342 mins.
+==> Saving arima output took 0.0328189690907796 mins.
+=========OR========
+==> Running ARIMA for 7533 series with 49 CPUs:
+==> Output generated: ARIMA took 1.51423090298971 mins.
+==> Saving arima output took 0.0072132666905721 mins.
+=========PA========
+==> Running ARIMA for 93040 series with 49 CPUs:
+==> Output generated: ARIMA took 16.3543232242266 mins.
+==> Saving arima output took 0.0921316186587016 mins.
+=========PR========
+==> Running ARIMA for 18148 series with 49 CPUs:
+==> Output generated: ARIMA took 2.92591732740402 mins.
+==> Saving arima output took 0.0179759462674459 mins.
+=========RI========
+==> Running ARIMA for 6920 series with 49 CPUs:
+==> Output generated: ARIMA took 1.11484435002009 mins.
+==> Saving arima output took 0.0130375742912292 mins.
+=========SC========
+==> Running ARIMA for 33667 series with 49 CPUs:
+==> Output generated: ARIMA took 4.51987021366755 mins.
+==> Saving arima output took 0.0327269275983175 mins.
+=========SD========
+==> Running ARIMA for 9589 series with 49 CPUs:
+==> Output generated: ARIMA took 1.52932680050532 mins.
+==> Saving arima output took 0.00947073300679525 mins.
+=========SR========
+==> Running ARIMA for 111 series with 49 CPUs:
+==> Output generated: ARIMA took 0.552894723415375 mins.
+==> Saving arima output took 0.000203247865041097 mins.
+=========TN========
+==> Running ARIMA for 48821 series with 49 CPUs:
+==> Output generated: ARIMA took 7.44617199897766 mins.
+==> Saving arima output took 0.0565598130226135 mins.
+=========TX========
+==> Running ARIMA for 227800 series with 49 CPUs:
+==> Output generated: ARIMA took 51.7704720894496 mins.
+==> Saving arima output took 0.192296608289083 mins.
+=========UT========
+==> Running ARIMA for 8780 series with 49 CPUs:
+==> Output generated: ARIMA took 1.55026446183523 mins.
+==> Saving arima output took 0.00876737833023071 mins.
+=========VA========
+==> Running ARIMA for 29639 series with 49 CPUs:
+==> Output generated: ARIMA took 5.65660844643911 mins.
+==> Saving arima output took 0.0334206461906433 mins.
+=========VI========
+==> Running ARIMA for 2504 series with 49 CPUs:
+==> Output generated: ARIMA took 0.912968548138936 mins.
+==> Saving arima output took 0.00254601240158081 mins.
+=========VT========
+==> Running ARIMA for 3956 series with 49 CPUs:
+==> Output generated: ARIMA took 1.15411974191666 mins.
+==> Saving arima output took 0.00388568639755249 mins.
+=========WA========
+==> Running ARIMA for 23647 series with 49 CPUs:
+==> Output generated: ARIMA took 5.97238150835037 mins.
+==> Saving arima output took 0.0226317922274272 mins.
+=========WI========
+==> Running ARIMA for 15086 series with 49 CPUs:
+==> Output generated: ARIMA took 2.20684920549393 mins.
+==> Saving arima output took 0.0230006774266561 mins.
+=========WV========
+==> Running ARIMA for 105231 series with 49 CPUs:
+==> Output generated: ARIMA took 15.7766871770223 mins.
+==> Saving arima output took 0.107910724480947 mins.
+=========WY========
+==> Running ARIMA for 28674 series with 49 CPUs:
+==> Output generated: ARIMA took 3.82519806623459 mins.
+==> Saving arima output took 0.0310660680135091 mins.
+--------------Finished ARIMA analysis----------------
+Script took 1499.18723986944 mins.
