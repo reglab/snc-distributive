@@ -1,5 +1,5 @@
 #####
-# Generate Figure 5 Calibration Plots for Classification and Regression Models
+# Generate Figure 3 Wastewater Facilities Map
 # Author: Nicole Lin
 # Input:
 # permit and location data from RegLab AWS database
