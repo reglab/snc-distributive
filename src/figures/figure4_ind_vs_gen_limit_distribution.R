@@ -154,7 +154,7 @@ tmp <- plot_df %>%
   filter(coverage == 'Both') %>%
   arrange(-general) %>%
   head(16) 
-common_pollutants <- c('00310', '80082', '01027', '00056', '00530', '01051')
+common_pollutants <- c('00310', '80082', '00665', '00056', '00530', '01051')
 
 plot_df <- wwtp_sewage %>%
   #filter(npdes_permit_id %in% c(sub_individual_ids, general_ids)) %>%
