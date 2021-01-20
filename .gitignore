@@ -1,0 +1,9 @@
+.fuse_hidden*
+.ipynb_checkpoints
+.DS_Store
+*__pycache__*
+.*
+!/.gitignore
+!/.git
+
+netdmr_users.csv
