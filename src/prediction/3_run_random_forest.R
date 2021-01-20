@@ -496,8 +496,8 @@ treated_data <- data %>%
          everything())
 
 # save prediction data as both csv and rds files (csv for quicker access, rds for better coding efficiency)
-write_csv(treated_data, file.path(data_dir, paste0('prediction_data_', version,'.csv')))
-saveRDS(treated_data, file.path(data_dir, paste0('prediction_data_', version, '.rds')))
+write_csv(treated_data, file.path(data_dir, paste0('prediction_data.csv')))
+saveRDS(treated_data, file.path(data_dir, paste0('prediction_data.rds')))
 
 # 2. Split into training and testing data
 
