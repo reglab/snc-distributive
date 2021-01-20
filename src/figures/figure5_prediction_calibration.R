@@ -9,7 +9,7 @@
 #####
 
 # Note that the figures were generated in the prediction process in src/prediction/2_run_random_forest.R script
-# this script redirects the figures to the figures folder
+# this script redirects the figures to the output/figures folder
 
 # set up ------------------------------------------------------------------
 
