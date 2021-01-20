@@ -1,0 +1,89 @@
+
+
+\begin{table*}[!htbp] \centering 
+\begin{tabular}{@{\extracolsep{5pt}} llccc} 
+\\
+\multicolumn{5}{c}{\textbf{\large{Numerical Features}}}
+\\
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \textbf{Feature} & \textbf{Mean (SD)} & \textbf{Range} & \textbf{Missing Count (\%)} \\ 
+\hline \\[-1.8ex] 
+& \multicolumn{1}{l}{\textbf{Aggregated Time Series Features}} &&&
+\\
+& \multicolumn{1}{l}{\textbf{From the Previous Quarter*}} &&&
+\\
+1 & \multicolumn{1}{r}{Measurement Count Across All Parameters}  &18.25 (22.16)  & 0 - 995  & 10,585 (13\%) 
+\\[0.1cm] 
+2 & \makecell[r]{Unweighted Sum of Exceedance Percentages Across \\ All Category 1 and 2 Parameters} &407.07 (7,653.49)  & 0 - 999,980  & 10,585 (13\%)
+\\[0.1cm] 
+3 & \makecell[r]{Weighted Sum of Exceedance Percentages Across \\ All Category 1 and 2 Parameters} & 14.28 (273.23)  & 0 - 27,010.43  & 10,585 (13\%)
+\\[0.1cm] 
+4 & \makecell[r]{Count of All Effluent Violations} & 0.59 (2)  & 0 - 73  & 10,585 (13\%)
+\\[0.1cm] 
+5 & \makecell[r]{Count of Values that Exceeded 40\% or 20\% of  Limit \\ Value for Category 1 or 2 Parameters Respectively} & 0.4 (1.62)  & 0 - 73  & 10,585 (13\%)
+\\
+&&&&
+\\
+& \multicolumn{1}{l}{\textbf{Predicted Aggregated Time Series Features}} &&&
+\\
+& \multicolumn{1}{l}{\textbf{From the Target Quarter*}} &&&
+\\ 
+6 & \makecell[r]{Measurement Count Across All Parameters} & 17.86 (21.7)  & 0 - 959  & 9,437 (12\%) 
+\\[0.1cm] 
+7 & \makecell[r]{Unweighted Sum of Exceedance Percentages Across \\ All Category 1 and 2 Parameters } & 304.71 (6,944.86)  & 0 - 612,493.4  & 9,437 (12\%) 
+\\[0.1cm] 
+8 & \makecell[r]{Weighted Sum of Exceedance Percentages Across \\ All Category 1 and 2 Parameters} & 11.37 (266.45)  & 0 - 28,142.59  & 9,437 (12\%)  
+\\[0.1cm] 
+9 & \makecell[r]{Count of All Effluent Violations} & 0.51 (1.99)  & 0 - 56  & 9,437 (12\%)  
+\\[0.1cm] 
+10 & \makecell[r]{Count of Values that Exceeded 40\% or 20\% of Limit \\ Value for Category 1 or 2 Parameters Respectively} & 0.32 (1.54)  & 0 - 56  & 9,437 (12\%)   
+\\
+&&&&
+\\
+& \multicolumn{1}{l}{\textbf{Facility-Level Features}} &&&
+\\
+11 & \makecell[r]{The Amount of Flow (Million Gallons per Day) \\ a permitted facility was designed to accommodate } & 3,173.83 (161,169.3)  & 0 - 19,800,000  & 44,881 (56\%)   
+\\[0.1cm] 
+12 & \makecell[r]{The Amount of Flow (Million Gallons per Day) that \\ the facility actually had at the time of application} & 5,067.7 (439,889.7)  & 0 - 51,000,000  & 57,604 (72\%)   
+\\
+&&&&
+\\
+\multicolumn{5}{c}{\textbf{\large{Categorical Features}}}
+\\
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \textbf{Feature} & \textbf{Category Count} & \textbf{Mode (\%)} & \textbf{Missing Count (\%)} \\ 
+\hline \\[-1.8ex] 
+& \multicolumn{1}{l}{\textbf{Permit-Level Features}}
+\\
+13 & \makecell[r]{Facility Type (POTW, Non-POTW, or Federal Entity)} & 4  & \makecell[c]{Non-POTW (66\%)}  & 1,718 (2\%)  
+\\[0.1cm] 
+14 & \makecell[r]{Individual or General Permit} & 3  & \makecell[c]{Individual (67\%)}  & 1,716 (2\%)  
+\\[0.1cm] 
+15 & \makecell[r]{Major or Minor Permit} & 3  & \makecell[c]{Minor (83\%)}  & 1,716 (2\%)  
+\\[0.1cm] 
+16 & \makecell[r]{Wastewater or Non-Wastewater Permit} & 2  & \makecell[c]{Wastewater (90\%)}  & 0 (0\%)
+\\[0.1cm] 
+17 & \makecell[r]{Sewage  Treatment or Non-Sewage Permit} & 2  & \makecell[c]{Non-Sewage (62\%)}  & 0 (0\%)
+\\[0.1cm] 
+18 & \makecell[r]{Ownership Type of the Facility (e.g. Municipality)} & 15  & \makecell[c]{Privately Owned \\ Facility (30\%)}  & 11,145 (14\%)
+\\[0.1cm] 
+19 & \makecell[r]{Category of Water Body that the Permit Discharges to} & 2  & \makecell[c]{Missing \\ (Non-303(D)-Listed) (60\%)}  & 48,341 (60\%)
+\\ 
+&&&&
+\\
+& \multicolumn{1}{l}{\textbf{Historical Statuses}}
+\\
+20 & \makecell[r]{The Official Historical Compliance Status \\ One Quarter Before the Target Quarter} & 14  & \makecell[c]{Missing \\ (Automatic Compliant) (32\%)}  & 25,290 (32\%)
+\\[0.1cm] 
+\makecell[c]{21-\\27} & 
+\makecell[r]{The Official Historical Statuses \\ Two to Eight Quarters Before the Target Quarter**} & 14 & - & - 
+\\
+\hline \\[-1.8ex] 
+\end{tabular} 
+\caption{Summary Statistics of All 27 Prediction Features in the Random Forest Model. *As the target quarter in the test set is FY2020-Q1, the previous quarter refers to FY2019-Q4. In the training dataset (target quarter FY2019-Q4), the previous quarter refers to FY2019-Q3. **The remaining historical status features share similar summary statistics and are thus omitted here.}
+  \label{tab:pred_feature_stats} 
+\end{table*} 
+                       
+
