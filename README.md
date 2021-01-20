@@ -19,8 +19,6 @@ Please cite this article as follows, or use the BibTeX entry below.
 }
 ```
 
-As of Jan 20th, 2021, we have yet to include scripts that reproduce Figure 2, Figure 3, and Figure 4.  
-
 ## Hardware and Software Requirements
 
 This code was tested on a system with the following specifications:
