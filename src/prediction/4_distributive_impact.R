@@ -60,15 +60,10 @@ fac_permit <- read_csv(file.path(pathdata, 'dmr', 'raw', "fac_permit_convert_25s
 demo_cbg <- read_csv(file.path(pathdata, "6_facilities_geocoded_census_attributes_6_Oct_2020.csv")) %>% clean_names() %>% rename(permit_state = state_name)
 
 #1. Reg & Classification Together
-prediction_file <- list('v1' = 'rf_results_7oct2020.csv',
-                        'v2' = 'rf_results_v2_2021-01-13_11-51-39.csv',
-                        'v3' = 'rf_results_v3_2021-01-11_15-23-39.csv') # to be updated
-version <- 'v2'
-
 predictions <- read_csv(file.path(pathrepo,
                                   'data', 
                                   'prediction', 
-                                  prediction_file[[version]])) %>% clean_names() #40,008 x 9
+                                  'rf_results_v2_2021-01-13_11-51-39.csv')) %>% clean_names() 
 
 # %%%%%%%%%%%%%%%%%%%%%%%%%%%
 # Merge Predictions & Demo Data --------------------------------------------
@@ -576,7 +571,6 @@ oracle_popden_qqplot <-
   coord_fixed(ratio = 1, xlim = xylim_oracle, ylim = xylim_oracle); oracle_popden_qqplot
 
 
-
 ### Bring all the graphics together in a 2 x 3 ----
 
 compare_qqplot_all <- 
@@ -592,7 +586,7 @@ compare_qqplot_all
 ggsave(file.path(pathrepo,
                  'output', 
                  'figures',
-                 paste0('distributive_impact_', version, '_', run_time, '.pdf')),
+                 paste0('distributive_impact_', run_time, '.pdf')),
        height = 11, width = 10)
 
 
