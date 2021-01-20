@@ -276,7 +276,7 @@ def main():
 
     fig.tight_layout()
     fig.show()
-    fig.savefig(os.path.join(git_root_dir, 'output', 'figures', 'san_mateo_median_hh_income.pdf'), bbox_inches='tight')
+    fig.savefig(os.path.join(git_root_dir, 'output', 'figures', 'figure1_san_mateo_median_hh_income.pdf'), bbox_inches='tight')
 
 
 if __name__ == "__main__":
