@@ -29,14 +29,14 @@ This code was tested on a system with the following specifications:
 
 The main software requirements are Python 3.7.3, and R version 3.6.1 (2019-07-05) with Rstudio version 1.2.5019 (Elderflower). For scripts in R, it is recommended that the user opens the `snc-distributive.Rproj` R project file. The complete list of packages for R scripts are listed in `src/prediction/0_dependencies.R`, which is sourced in the beginning of each R scripts. The list of packages for Python scripts are listed within the scripts and should be installed prior to running the scripts. 
 
-## Model Training Instructions
+## Prediction Results and Distributive Impact Results 
 The `src/prediction` folder contains scripts necessary to generate prediction results and distributive impact results. Model outputs are saved in the `output/models` folder.
 1. **Run ARIMA models**: `1_run_arima.R` 
 2. **Upload ARIMA results to database**: `2_upload_arima_to_db.R`
 3. **Run Random Forest models for both classification and regression**: `3_run_random_forest.R`
 4. **Produce distributive impact results**: `4_distributive_impact.R`
 
-## Figure and Table Replication Instructions
+## Figures and Tables
 The `src/figures` and `src/tables` folders contain scripts necessary to generate figures and tables in the article. Outputs are saved in the `output/figures` and `output/tables` folders.
 
 ## Data Availability Statment
