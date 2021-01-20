@@ -586,7 +586,7 @@ compare_qqplot_all
 ggsave(file.path(pathrepo,
                  'output', 
                  'figures',
-                 paste0('distributive_impact_', run_time, '.pdf')),
+                 paste0('figure6_distributive_impact_', run_time, '.pdf')),
        height = 11, width = 10)
 
 
