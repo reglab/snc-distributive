@@ -3,7 +3,7 @@
 # Author: Nicole Lin
 # Input:
 # permit and location data from RegLab AWS database
-# Output: Calibration Plots
+# Output:
 # output/figures/figure3a_wastewater_sewerage_map.png
 # output/figures/figure3b_wastewater_sewerage_map_VA_NC.png
 #####
