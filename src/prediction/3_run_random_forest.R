@@ -89,7 +89,7 @@ color2 <- '#5CA7E6'
 # random seed
 seed <- 333
 
-message(paste0("======= Generating prediction output for study design: ", design_id, "========="))
+message(paste0("======= Generating prediction output ========="))
 
 # read data from AWS database ----------------------------------------------
 
