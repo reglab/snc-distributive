@@ -121,6 +121,7 @@ set.seed(seed)
 random_idx <- sample(1:nrow(plot_df), nrow(plot_df), replace = FALSE)
 plot_df <- plot_df[random_idx, ]
 
+## with permit numbers as annotations
 ggmap(map) +
   geom_point(data = plot_df, 
              aes(x = geocode_longitude, y = geocode_latitude, color = individual_permit_flag),
@@ -147,6 +148,26 @@ ggmap(map) +
         axis.ticks = element_blank(),
         rect = element_blank()) 
 ggsave(file.path(output_dir, 'figure3a_wastewater_sewerage_map.png'),
+       width = 5,
+       height = 4)
+
+## without annotations
+ggmap(map) +
+  geom_point(data = plot_df, 
+             aes(x = geocode_longitude, y = geocode_latitude, color = individual_permit_flag),
+             size = 0.3,
+             alpha = 0.3) +
+  scale_color_manual(name = '',
+                     values = c(color1, color2)) +
+  labs(x ='',
+       y = '') +
+  theme(legend.position = 'none',
+        legend.text = element_text (color = color1),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank(),
+        axis.ticks = element_blank(),
+        rect = element_blank()) 
+ggsave(file.path(output_dir, 'figure3a_wastewater_sewerage_map_no_annotation.png'),
        width = 5,
        height = 4)
 
