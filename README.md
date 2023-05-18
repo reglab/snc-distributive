@@ -2,7 +2,7 @@
 
 ---
 
-This repository contains the code necessary to reproduce the results, figures, and tables for the article "The Distributive Effects of Risk Prediction in Environmental Compliance: Algorithmic Design, Environmental Justice, and Public Policy" published in *the Proceedings of 2021 ACM FAccT Conference in Toronto, Canada* ([link](https://doi.org/10.1145/1122445.1122456)).
+This repository contains the code necessary to reproduce the results, figures, and tables for the article "The Distributive Effects of Risk Prediction in Environmental Compliance: Algorithmic Design, Environmental Justice, and Public Policy" published in *the Proceedings of 2021 ACM FAccT Conference in Toronto, Canada* ([link](https://dl.acm.org/doi/10.1145/3442188.3445873)).
 
 Please cite this article as follows, or use the BibTeX entry below.
 
